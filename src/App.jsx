@@ -3,7 +3,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Prompts from "./pages/Prompts.jsx";
 import Settings from "./pages/Settings.jsx";
-
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "sonner";
 import SharedLayout from "./components/layouts/sidebar.jsx";
 
 const queryClient = new QueryClient();
